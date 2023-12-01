@@ -1,0 +1,38 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    
+    }
+    body{
+    
+        background-color: blanchedalmond;
+    
+    }
+    .moving_img {
+        position: absolute;
+        animation: img 8s infinite alternate ease-in-out;
+      }
+      
+      @keyframes img {
+        0% {
+          top: 0;
+          left: 0;
+        }
+        25% {
+          top: 0;
+          right: 0;
+        }
+        50% {
+          bottom: 0;
+          right: 0;
+        }
+        75% {
+          bottom: 0;
+          left: 0;
+        }
+        100% {
+          top: 0;
+          left: 0;
+        }
+      }
+    
