@@ -4,7 +4,8 @@
     
     }
     body{
-    
+
+        margin: 0;
         background-color: blanchedalmond;
     
     }
@@ -23,25 +24,22 @@
       }
 
       @keyframes img {
-        0% {
-         margin-top:20%;
-          margin-left: 20%;
+        0%, 100% {
+          top: 0;
+          left: 0;
         }
         25% {
-          margin-top: 20%;
-          margin-right: 20%;
+          top: 0;
+          left: calc(100vw - 100px);
         }
         50% {
-          margin-bottom: 20%;
-          margin-right: 20%;
+          top: calc(100vh - 100px);
+          left: calc(100vw - 100px);
         }
         75% {
-          margin-bottom: 20%;
-          margin-left: 20%0;
-        }
-        100% {
-          margin-top: 20%;
-          margin-left: 20%;
+          top: calc(100vh - 100px);
+          left: 0;
         }
       }
+      
     
